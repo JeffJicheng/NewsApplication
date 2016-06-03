@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/include_drawer_left_top"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        />
+    <!-- headerDividersEnabled 为false时 头部分没有分割线 -->
+    <!-- footerDividersEnabled 为false时 尾部分没有分割线 -->
+    <ListView 
+        android:id="@+id/drawer_left_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:divider="@drawable/shape_drawer_left_lv_divider"
+        android:dividerHeight="2dp"
+        android:listSelector="@drawable/sel_drawer_left_iv"
+        android:cacheColorHint="#00000000"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:background="@drawable/shape_drawer_left_iv_normal"
+        ></ListView>
+    
+    <include layout="@layout/includ_drawer_left_bottom"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        />
+
+</LinearLayout>

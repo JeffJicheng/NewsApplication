@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="#F4F5F6"
+    android:orientation="horizontal" >
+    
+    
+    <TextView 
+        android:id="@+id/news_bottom_pinglun"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="写评论"
+        android:clickable="true"
+        android:padding="10dp"
+        android:background="@drawable/shape_news_bootom_pinglun"
+        android:textColor="@drawable/sel_news_bottom_pinglun"
+        />
+    <ImageView 
+        android:id="@+id/news_bottom_showpinglun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/review_toolbar_pressed"
+        android:clickable="true"
+        android:layout_marginLeft="20dp"
+        
+        />
+    <ImageView 
+        android:id="@+id/new_bottom_shoucang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_favor_pressed"
+		android:clickable="true"
+		android:layout_marginLeft="20dp"
+        />
+    
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/item_nfplv_adapter_title"
+		android:id="@+id/item_nfplv_adapter_duotu_title"
+		android:layout_marginTop="5dp"
+        />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp"
+        >
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/item_nfplv_adapter_duotu_img1"
+            />
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/item_nfplv_adapter_duotu_img2"
+            android:layout_marginLeft="2dp"
+            />
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/item_nfplv_adapter_duotu_img3"
+			android:layout_marginLeft="2dp"
+            />
+    </LinearLayout>
+		    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="5dp"
+	        android:orientation="horizontal"
+	        >
+	        <TextView 
+	            android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@style/item_nfplv_adapter_smalltext"
+				android:id="@+id/item_nfplv_adapter_duotu_source"
+				android:layout_marginLeft="10dp"
+	            />
+	        <TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@style/item_nfplv_adapter_smalltext"
+				android:id="@+id/item_nfplv_adapter_duotu_time"
+				android:layout_marginLeft="10dp"
+	            />
+   		 </LinearLayout> 
+
+</LinearLayout>

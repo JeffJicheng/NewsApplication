@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#2b2b2b"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView 
+            android:id="@+id/drawer_left_top_qq"
+            android:layout_width="0dp" 
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_drawer_qzone"
+            /> 
+         <ImageView 
+             android:id="@+id/drawer_left_top_sina"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_drawer_weibo"
+             />
+    </LinearLayout>
+    
+    <TextView 
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="登录后，将推进给你更多的文章"
+		android:textColor="#AAAAAA"
+		android:textSize="16sp"
+		android:layout_marginTop="5dp"
+        />
+    
+    
+
+</LinearLayout>
