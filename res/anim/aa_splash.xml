@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 透明动画
+	对APP进入做友好的交互界面	
+
+	时间间隔3秒
+	加速器为线性加速
+ -->
+<alpha
+    android:fromAlpha="0.3"
+    android:toAlpha="1.0"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:duration="3000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+</alpha>
